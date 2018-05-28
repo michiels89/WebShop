@@ -1,5 +1,5 @@
 <?php
-namespace WebShop;
+namespace src;
 
 class Database
 {

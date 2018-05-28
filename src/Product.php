@@ -1,14 +1,14 @@
 <?php
-namespace WebShop;
+namespace src;
 
-use WebShop\DataBase;
+use src\DataBase;
 
 
 class Product{
     
     public function getAllProducts(){
         
-        $db = new WebShop\DataBase();
+        $db = new DataBase();
         $sql = "Select * from products";
         $db->executeWithoutParam($sql);
         $resultSet = $db->resultset();

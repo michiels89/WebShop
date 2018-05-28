@@ -1,7 +1,7 @@
 <?php
 require __DIR__.'/vendor/autoload.php';
 
-use WebShop\Product;
+use src\Product;
 
     $productList = new Product;
     $products = $productList->getAllProducts();
