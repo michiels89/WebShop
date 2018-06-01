@@ -23,8 +23,27 @@ use src\Product;
 <body>
 
   <header>
+     <nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand">Cart</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>Cart (0)</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
    <a  class="btn btn-info" href="cartView.php"><i class="fa fa-shopping-cart"></i></a>
    </header>
+
     <div class="container">
        <h1 class="text-center">Shop</h1><br><br>
         <?php
